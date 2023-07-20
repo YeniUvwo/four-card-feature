@@ -1,0 +1,148 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color:  hsl(0, 0%, 98%);
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 3em;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    gap: 2em;
+}
+.top-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+}
+h1{
+    font-size: 1.65em;
+    margin-bottom: -3px;
+    font-weight: 200;
+}
+h2{
+    margin: 0px auto;
+    font-size: 1.65em;
+}
+.top-box p{
+    font-size: 0.7em;
+    color: hsl(229, 6%, 66%);
+    text-align: center;
+}
+.bottom-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5em;
+}
+.middle-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5em;
+}
+.box{
+    width: 205px;
+    height: 165px;
+    background-color: hsl(0, 0%, 100%);
+    padding: 5px 20px;
+    border-radius: 7px;
+    position: relative;
+    box-shadow: 2px 6px 8px rgba(0, 0, 0, 0.1);
+}
+.green{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    height: 3px;
+    width: 245px;
+    border-radius: 5px 5px 0px 0px;
+    background-color: hsl(180, 62%, 55%);
+}
+.red{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    height: 3px;
+    width: 245px;
+    border-radius: 5px 5px 0px 0px;
+    background-color: hsl(0, 78%, 62%);
+}
+.yellow{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    height: 3px;
+    width: 245px;
+    border-radius: 5px 5px 0px 0px;
+    background-color:hsl(34, 97%, 64%);
+}
+.blue{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    height: 3px;
+    width: 245px;
+    border-radius: 5px 5px 0px 0px;
+    background-color: hsl(212, 86%, 64%);
+}
+h3{
+    font-size: 0.9em;
+}
+.box p{
+    font-size: 0.6em;
+    color: hsl(229, 6%, 66%);
+}
+.box-icon{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-top: 20px;
+}
+.box img{
+    width: 40px;
+    margin-top: 10px;
+}
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+@media (max-width: 650px){
+    .container{
+        height: 100%;
+    }
+    .bottom-box{
+        flex-direction: column;
+    }
+    h1, h2{
+        font-size: 1.1em;
+    }
+    .top-box p{
+        font-size: 0.65em;
+        width: 215px;
+    }
+    .box{
+        padding: 10px;
+        height: 155px;
+        border-radius: 5px;
+    }
+    .color{
+        width: 225px;
+    }
+}
